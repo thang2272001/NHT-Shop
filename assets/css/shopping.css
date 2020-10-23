@@ -1,0 +1,180 @@
+.link-info {
+    padding-top: 1.5rem;
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+.link-info-name {
+    text-decoration: none;
+    color: black;
+    
+}
+.link-info-icon {
+    padding: 0 3px 0 3px;
+}
+
+.picture-box {
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+}
+.picture-img {
+    width: 40%;
+    padding: 1.8rem;
+}
+
+.picture-price {
+    width: 60%;  
+}
+
+.img-price {
+    
+}
+
+.img-price-big {
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.img-price-small {
+    padding-top: 20%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.share {
+    display: flex;
+    padding: 30px 10px 10px 30px;
+}
+
+.link-share {
+    position: relative;
+}
+
+.link-share-name {
+    font-size:2rem;
+    color: #222;
+}
+
+.link-share::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #FB9086;
+    height: 18px;
+    right: -55px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.link-share-icon {
+    font-size:2rem;
+    text-decoration: none;
+    padding-left: 3px;
+}
+
+.link-love {
+    margin-left: 10rem;
+}
+
+.link-love-icon {
+    font-size:2rem;
+    text-decoration: none;
+    padding-left: 3px;
+    color: red;
+}
+
+.link-love-name {
+    font-size:2rem;
+}
+
+/* price */
+.picture-price {
+    
+}
+
+.picture-price-form {
+    padding: 20px;
+}
+
+.picture-price-tenthe {
+    
+}
+
+.tenthe-name {
+    font-size: 2.5rem;
+}
+
+.picture-price-danhgia {
+    padding-top: 13px;
+    display: flex;
+}
+
+.danhgia-star {
+    display: flex;
+    color: red;
+}
+
+.danhgia-star-length {
+    font-size:2rem;
+    text-decoration: none;
+    border-bottom: 1px solid red;
+    padding-bottom: 3px;
+}
+
+.danhgia-rating {
+    font-size: 13px;
+    padding-left: 5px;
+    padding-top: 0.5px;
+}
+
+.danhgia-star::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #555;
+    height: 25px;
+    right: 64.6rem;
+    top: 34%;
+    transform: translateY(-50%);
+}
+
+.danhgia-rate {
+    display: flex;
+    padding-left:3rem;
+}
+
+.rate-name {
+    font-size:1.5rem;
+    padding-left: 5px;
+    padding-top: 0.5px;
+    color: #555;
+}
+
+.danhgia-daban {
+    display: flex;
+    padding-left:3rem;
+}
+
+.danhgia-daban-length {
+    font-size: 2rem;
+}
+
+.danhgia-rate::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #555;
+    height: 25px;
+    right: 52.6rem;
+    top: 34%;
+    transform: translateY(-50%);
+}
+
