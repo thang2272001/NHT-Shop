@@ -1079,6 +1079,7 @@ i.home-product-item__like-icon-fill {
     margin: 3px 10px 0;
     color: #595959;
     font-size: 1.3rem;
+    padding-bottom: 7px;
 }
 
 .home-product-item__origin-name {
@@ -1143,10 +1144,10 @@ i.home-product-item__like-icon-fill {
 .home-product-item__sale-off-percent {
     color: #EE4D2D;
     font-weight: 800;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1.2px;
     position: relative;
-    top: -1px;
+    top: 5px;
 }
 
 .home-product-item__sale-off-label {
@@ -1154,7 +1155,7 @@ i.home-product-item__like-icon-fill {
     font-size: 1.3rem;
     line-height: 1.3px;
     position: relative;
-    top: -10px;
+    top: 6px;
     font-weight: 550;
 }
 
